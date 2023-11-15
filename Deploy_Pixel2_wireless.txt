@@ -1,0 +1,6 @@
+Deply on Pixel2
+
+cmd 
+cd cd %LOCALAPPDATA%\Android\sdk\platform-tools
+adb pair ipaddr:port
+adb connect 192.168.222.29:42898
